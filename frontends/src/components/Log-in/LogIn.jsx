@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import './LogIn.css'
 import { assets } from '../../assets/assets'
 import axios from 'axios'
+import api from '../../axiosInstance'
 import { StoreContext } from '../../context/StoreContext'
 
 const LogIn = ({ setLogin }) => {
